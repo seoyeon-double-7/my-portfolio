@@ -1,9 +1,6 @@
 import Layout from "@/components/layout";
+import { Head } from "next/head";
 
 export default function Projects() {
-  return (
-    <Layout>
-      <h1>Project</h1>
-    </Layout>
-  );
+  return <Layout></Layout>;
 }
