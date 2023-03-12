@@ -48,7 +48,7 @@ p {
             transition duration-300 transform border border-gray-300
             hover:scale-105
             hover:shadow-lg
-            dark:border-gray-200/50
+            /* dark:border-gray-200/50 */
             hover:shadow-gray-400/40
 
             hover:text-blue-200;
