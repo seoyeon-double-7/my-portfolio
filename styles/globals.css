@@ -42,3 +42,14 @@ a {
 p {
   @apply text-slate-500 dark:text-slate-400;
 } */
+
+.project-card {
+  @apply flex flex-col m-3 rounded-xl w-full
+            transition duration-300 transform border border-gray-300
+            hover:scale-105
+            hover:shadow-lg
+            dark:border-gray-200/50
+            hover:shadow-gray-400/40
+
+            hover:text-blue-200;
+}
